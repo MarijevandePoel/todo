@@ -1,0 +1,66 @@
+body {
+    background-color: #faf4f4;
+    color: black;
+}
+
+.toDolist {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    margin: 5px;
+    border: 2px, solid gray;
+    border-radius: 5%;
+}
+
+#newTaskInputForm{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.done {
+    text-decoration: line-through
+}
+.text{ 
+    padding:  10px;
+    border: none;
+}
+.edit {
+padding:  10px;
+}
+.delete {
+    padding:  10px;
+}
+.toDoTask {
+    display: flex;
+    flex-direction: row;
+}
+#editButton{
+    border: none;
+}
+#deleteButton{
+    border: none;
+    color: #e62929;
+}
+
+.fa-pencil {
+        color: #335bb1;
+}
+
+.fa-floppy-disk {
+  
+        color:#335bb1;
+}
+
+#add{
+    background-color: #335bb1;
+    border-color:#335bb1;
+}
+
+.task {
+    border-color: darkgrey;
+    border-bottom: 1px solid;
+    background-color: gainsboro;
+}
